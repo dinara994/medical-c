@@ -1,0 +1,40 @@
+.aside {
+    min-height: 100vh;
+    width: 25%;
+    background: rgb(53 17 103);
+
+}
+
+.logo {
+    color: #e2def8;
+    display: block;
+    margin: 0 auto;
+}
+.nav-li {
+    padding: 0 ;
+}
+.nav-item a {
+    display: block;
+    padding: 8px 20px;
+    border-left: 4px solid transparent;
+}
+.nav-item a.active{
+    background-color: rgb(32 6 66);
+    border-left: 4px solid magenta;
+
+}
+
+.form-control {
+    width: 250px;
+}
+.btn-aside {
+    padding: 6px 12px;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+}
+.form-modal {
+    display: block;
+
+
+}

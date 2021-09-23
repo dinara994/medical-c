@@ -1,13 +1,83 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 90%;
+}
+
+a, li {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+}
+.header {
+    background: #c3bfdb;
+    color: #150b24;
+}
+
+.row{
+display: flex;
+margin:0 -15px;
+flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.right-side {
+    width: 75%;
+
+}
+.header {
+    padding: 8px 15px;
+    background-color: #ceced0;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: block;
+}
+.contain {
+    padding: 30px;
+}
+.jsListView {
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+.view-btn  {
+    width: 38px;
+    height: 43px;
+    border: none;
+    background-color: #fdfdfd;
+    color: #ab05ab;
+    font-size: 24px;
+}
+
+.jsGridView {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
